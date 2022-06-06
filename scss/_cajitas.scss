@@ -1,0 +1,54 @@
+.cajitas {
+
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin: 30px;
+          
+        div {
+            border: 1px black solid;
+            border-radius: 10px;
+            padding: 20px;
+
+            a {
+                text-decoration: none;
+
+                
+            }
+
+            h2 {
+
+                font-weight: bold;
+                color: black;
+
+                &:hover {
+
+                    color: #414288;
+                }
+
+                
+            }
+               
+            p {
+                font-weight: bold;
+                color: black
+            }
+        }
+
+}
+
+.cajitasEstilos {
+
+    background-color: white;
+    opacity: 70%;
+
+        &:hover {
+
+            opacity: 100%;
+            transition: 1.5s;
+
+        }           
+}

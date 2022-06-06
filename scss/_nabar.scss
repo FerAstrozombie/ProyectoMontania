@@ -1,0 +1,37 @@
+.colorNav {
+
+    background-color: white;
+    text-align: center;
+    position: sticky;
+    top: 0;
+
+}
+
+.tamañoFuente{
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    margin-right: 30px;    
+    margin-left: 30px;
+}
+
+.navbar-toggler {
+
+    color: black;
+}
+.logo {
+
+    width: 100px;
+
+        &:hover {
+
+                scale: 1.2;
+            }         
+
+    
+}
+
+
+
+
