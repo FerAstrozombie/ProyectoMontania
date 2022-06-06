@@ -1,19 +1,22 @@
-* {
-
-    box-sizing: border-box;
-}
-
-.colorNavImagen {
-
-    background-color:  black ;
-}
-
-.bodyGaleria {
-
+*{
     margin: 0;
     padding: 0;
-    background: black;
     
+}
+.bodyGaleria {
+
+    background: white;
+    box-sizing: border-box;
+         
+}
+
+.colorNavGaleria {
+
+    background-color: white;
+}
+
+.colorMenu {
+    color: black;
 }
 
 img {
@@ -24,20 +27,31 @@ img {
 .row {
 
     display: flex;
-    padding: 5px;
     flex-wrap: wrap;
+    margin-right: 0px;
 
 }
 
 .column {
 
     flex: 25%;
-    padding: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    
+}
+
+.footerEstilo2 {
+
+    background-color: white;
 }
 
 .column img {
 
     margin-top: 10px;
+}
+
+.estilotexto2 {
+    color: black;
 }
 
 @media (max-width:800px) {
