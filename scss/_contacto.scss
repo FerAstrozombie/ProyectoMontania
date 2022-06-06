@@ -1,5 +1,4 @@
 .bodyContacto {
-    background: #181818;
     color: #fff;
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
@@ -77,19 +76,44 @@
     text-align: center;
     margin: 0 0 1rem 0;
 }
+.colorNavImagen {
 
-.colorNavContacto {
-
-    background-color:#181818;
-}
-
-.colorMenu {
-
-    text-align: center;
     color: white;
-        &:hover {
-
-            color: #B70E21;
-        }
 }
 
+.colorNav {
+
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    
+}
+/*Definicion de grid areas*/
+
+header {
+
+    grid-area: header;
+}
+
+.content {
+
+    grid-area: content;
+}
+
+.contact-info{
+
+    grid-area: adicional;
+}
+
+footer {
+
+    grid-area: footer;
+}
+.bodyContacto {
+
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "content content content"
+    "adicional adicional adicional"
+    "footer footer footer";
+}

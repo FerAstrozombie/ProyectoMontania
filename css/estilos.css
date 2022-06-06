@@ -12,7 +12,6 @@ body {
   font-weight: bold; }
 
 .colorNav {
-  background-color: white;
   text-align: center;
   position: sticky;
   top: 0; }
@@ -70,7 +69,7 @@ body {
 
 .estilotexto {
   font-family: 'Comic Neue', cursive;
-  color: #001011;
+  color: white;
   font-size: 1.3rem; }
 
 .footerEstilo {
@@ -88,7 +87,6 @@ body {
     flex-wrap: wrap; } }
 
 .bodyContacto {
-  background: #181818;
   color: #fff;
   line-height: 1.6;
   font-family: 'Quicksand', sans-serif;
@@ -153,14 +151,29 @@ body {
   text-align: center;
   margin: 0 0 1rem 0; }
 
-.colorNavContacto {
-  background-color: #181818; }
-
-.colorMenu {
-  text-align: center;
+.colorNavImagen {
   color: white; }
-  .colorMenu:hover {
-    color: #B70E21; }
+
+.colorNav {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold; }
+
+/*Definicion de grid areas*/
+header {
+  grid-area: header; }
+
+.content {
+  grid-area: content; }
+
+.contact-info {
+  grid-area: adicional; }
+
+footer {
+  grid-area: footer; }
+
+.bodyContacto {
+  display: grid;
+  grid-template-areas: "header header header" "content content content" "adicional adicional adicional" "footer footer footer"; }
 
 * {
   box-sizing: border-box; }
