@@ -22,7 +22,7 @@
             h2 {
 
                 font-weight: bold;
-                color: black;
+                color: white;
 
                 &:hover {
 
@@ -34,7 +34,7 @@
                
             p {
                 font-weight: bold;
-                color: black
+                color: white;
             }
         }
 
@@ -42,7 +42,7 @@
 
 .cajitasEstilos {
 
-    background-color: white;
+    background-color: black;
     opacity: 70%;
 
         &:hover {
@@ -51,4 +51,44 @@
             transition: 1.5s;
 
         }           
+}
+.cajasDiferencias {
+
+    background-color: black;
+    opacity: 70%;
+
+        &:hover {
+
+            opacity: 100%;
+            transition: 1.5s;
+
+        } 
+        
+        border: 1px black solid;
+        border-radius: 10px;
+        padding: 20px;
+
+        p {
+            font-weight: bold;
+            color: white;
+        }
+
+}
+
+.cajasFlex {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin: 30px;
+
+        h3 {
+            font-weight: bold;
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
 }

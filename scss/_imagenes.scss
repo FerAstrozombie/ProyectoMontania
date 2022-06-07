@@ -13,6 +13,7 @@
 .colorNavGaleria {
 
     background-color: white;
+    text-align: center;
 }
 
 .colorMenu {
@@ -43,6 +44,19 @@ img {
 .footerEstilo2 {
 
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 30px;
+    text-align: center;
+
+        a {
+
+            text-decoration: none;
+
+        }
+
 }
 
 .column img {

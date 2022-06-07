@@ -13,6 +13,11 @@
     color: black;
     margin-right: 30px;    
     margin-left: 30px;
+        &:hover {
+
+            color: #414288;
+            
+        }
 }
 
 .navbar-toggler {
