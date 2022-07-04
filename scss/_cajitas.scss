@@ -7,7 +7,7 @@
     justify-content: space-evenly;
     gap: 30px;
     margin: 30px;
-          
+
         div {
             border: 1px black solid;
             border-radius: 10px;
@@ -31,7 +31,7 @@
 
                 
             }
-               
+
             p {
                 font-weight: bold;
                 color: white;
@@ -55,11 +55,11 @@
 .cajasDiferencias {
 
     background-color: black;
-    opacity: 70%;
+    opacity: 70% !important;
 
         &:hover {
 
-            opacity: 100%;
+            opacity: 100% !important;
             transition: 1.5s;
 
         } 
